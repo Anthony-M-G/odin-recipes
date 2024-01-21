@@ -1,24 +1,31 @@
-h1 {
+* {
+    box-sizing: border-box;
+    margin: 30px;
+    padding: auto;
+    background-color: antiquewhite;
+}
+.header{
+    text-align: center;
+    justify-content: center;
+}
+.header2{
+    display: flexbox;
+    text-align: left;
+}
+.sec1{
+    justify-content: center;
     text-align: center;
 }
-
-body {
-    display: flexbox;
-}
-
-section {
-    display: inline-block;
-    text-align: justify;
+.Imagenes{
+    display: inline;
 
 }
 
-header {
-    display: block;
-    align-items: center;
+footer{
+    text-align: center;
+    background-color: burlywood;
+    
 }
+/* Index 2*/
 
-.traditional {
-    align-content: center;
-    max-width: max-content;
-    display: inline-block;
-}
+
